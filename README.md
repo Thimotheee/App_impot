@@ -39,3 +39,4 @@ LANCER_APPLICATION.bat
 
 ## Barème utilisé
 Barème 2024 - Source: service-public.gouv.fr
+
