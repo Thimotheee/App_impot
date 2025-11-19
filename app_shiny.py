@@ -303,7 +303,7 @@ def calculateur_individuel():
             # Tableau de comparaison
             df_comparaison = pd.DataFrame([{
                 'Foyer': r['nom'],
-                'Revenu (€)': f"{r['revenu']:,.0f}",
+                'Revenu (€)': f"{r['revenu_total']:,.0f}",
                 'Parts': f"{r['parts']:.1f}",
                 'Revenu/part (€)': f"{r['revenu_par_part']:,.0f}",
                 'Impôt (€)': f"{r['impot_final']:,.0f}",
